@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!-- star -->
+	<div class="wrapper">
+		<video id="bgm" src="bgm/bgm.mp3" preload="auto" loop></video>
+		<video id="eat" src="bgm/eat.mp3" preload="auto"></video>
+		<video id="lose" src="bgm/lose.mp3" preload="auto"></video>
+
+		<div id="start">
+			<img id="startBtn" src="img/start.png" alt="">
+		</div>
+
+		<div class="set">
+			<div class="stop"><img id="stopBtn" src="img/stop.png" alt=""></div>
+		</div>
+		
+		<div class="score">
+			<p id="scored">0</p>
+			<img src="img/score.png" alt="">
+		</div>
+
+		<div id="main">
+		</div>
+
+		<div class="restartDiv">
+			<div class="restart">
+				<img src="img/gameover.png" alt="">
+				<img class='restartBtn' src="img/restart.png" alt="">
+				<p class="lastScore"></p>
+			</div>
+		</div>
+
+	</div>
+<!-- end -->
+</body>
+<script src="index.js"></script>
+</html>
